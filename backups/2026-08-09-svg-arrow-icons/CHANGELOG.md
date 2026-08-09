@@ -18,5 +18,4 @@
 - Updated project media containers to a responsive 16:9 aspect ratio for consistent 1920x1080 screenshots.
 - Replaced Unicode arrow glyphs with CSS-drawn icons for consistent desktop and mobile rendering.
 - Replaced the project-card arrow treatment with consistently aligned View labels.
-- Replaced remaining CSS arrows with an SVG external-link icon for cross-device alignment.
 - Restored the original warm off-white page background.
