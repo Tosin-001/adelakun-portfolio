@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="All selected projects by Adelakun Oluwatosin, Full Stack Developer and UI/UX Designer." />
+    <meta name="theme-color" content="#0a0a0a" />
+    <title>Projects — Adelakun Oluwatosin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>.project-info h3{color:#10100f}.project-info p{color:#686761}.project-visual{height:auto;aspect-ratio:16/9}.project-visual.project-screenshot{padding:0;background:#0a0a0a}.project-visual.project-screenshot img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}</style>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Adelakun Oluwatosin home"><img src="assets/brand-mark.png" alt="TB monogram" style="filter: none" /><span>Oluwatosin.</span></a>
+      <button class="menu-button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+      <nav id="site-nav" aria-label="Primary navigation"><a href="projects.html">Work</a><a href="index.html#services">Services</a><a href="index.html#about">About</a><a class="nav-cta" href="index.html#contact">Let's talk <span aria-hidden="true">↗</span></a></nav>
+    </header>
+    <main id="main">
+      <section class="section projects" aria-labelledby="projects-title">
+        <div class="section-intro"><p class="eyebrow">All projects</p><h1 id="projects-title" style="font-family: var(--display); font-size: clamp(43px, 5vw, 75px); letter-spacing: -.08em; line-height: .93; margin: 0">Every idea<br /><em style="font-family: var(--serif); font-weight: 400">brought to life.</em></h1><p>A selection of products, experiments, and tools built with clear user experiences and reliable engineering.</p></div>
+        <div class="project-grid">
+          <a class="project featured verify" href="https://verifyng.vercel.app/" target="_blank" rel="noreferrer"><div class="project-visual project-screenshot"><img src="assets/projects/verifyng.png" alt="VerifyNG website homepage" loading="lazy" /></div><div class="project-info"><div><h3>VerifyNG</h3><p>Virtual phone number marketplace for global OTP verification.</p></div><span class="project-arrow">↗</span></div><ul><li>Next.js</li><li>Supabase</li><li>Korapay</li></ul></a>
+          <a class="project eduboard" href="https://eduboard-navy.vercel.app/" target="_blank" rel="noreferrer"><div class="project-visual"><span class="screen-title">Edu<span>board</span></span><div class="board"><b>What will you create?</b><i></i><i></i><i></i></div></div><div class="project-info"><div><h3>Eduboard</h3><p>Interactive whiteboard for teaching, drawing, and learning.</p></div><span class="project-arrow">↗</span></div><ul><li>Next.js</li><li>Fabric.js</li><li>TypeScript</li></ul></a>
+          <a class="project scoreboard" href="https://intern-scoreboard-eight.vercel.app/" target="_blank" rel="noreferrer"><div class="project-visual"><span class="screen-title">Intern<br /><span>Scoreboard</span></span><div class="ranking"><b>01</b><b>02</b><b>03</b></div></div><div class="project-info"><div><h3>Intern Scoreboard</h3><p>A clear, engaging system for ranking internship scores.</p></div><span class="project-arrow">↗</span></div><ul><li>React</li><li>JavaScript</li><li>Vercel</li></ul></a>
+          <a class="project calculator" href="https://scientific-calculator-with-voice-ov.vercel.app/" target="_blank" rel="noreferrer"><div class="project-visual"><span class="screen-title">Scientific<br /><span>Calculator</span></span><div class="calc-display">4,302.84</div></div><div class="project-info"><div><h3>Voice Calculator</h3><p>Scientific calculator with voice input and spoken results.</p></div><span class="project-arrow">↗</span></div><ul><li>JavaScript</li><li>Web Speech API</li></ul></a>
+          <a class="project fullname" href="https://full-name-generator-kappa.vercel.app/" target="_blank" rel="noreferrer"><div class="project-visual"><span class="screen-title">Fullname<br /><span>Generator</span></span><div class="name-pill">A. Oluwatosin</div></div><div class="project-info"><div><h3>Fullname Generator</h3><p>A simple tool that transforms names into polished full-name formats.</p></div><span class="project-arrow">↗</span></div><ul><li>React</li><li>JavaScript</li></ul></a>
+          <article class="project in-progress"><div class="project-visual"><span class="screen-title">AI Job<br /><span>Finder</span></span><div class="status">In development</div></div><div class="project-info"><div><h3>AI Job Finder</h3><p>Intelligent job discovery across multiple providers.</p></div></div><ul><li>Next.js</li><li>APIs</li><li>TypeScript</li></ul></article>
+        </div>
+      </section>
+    </main>
+    <footer><span>© <span id="year"></span> Adelakun Oluwatosin</span><span>Built with care in Lagos, Nigeria.</span></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
