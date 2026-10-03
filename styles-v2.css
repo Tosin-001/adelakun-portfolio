@@ -223,3 +223,21 @@ footer{background:#fff;color:var(--mut);border-top:1px solid #e7e7ef}
 .glass .p-info h3{font-size:21px}
 .glass .tags li{font-size:12px;padding:3px 12px}
 .glass .p-info em{width:38px;height:38px}
+
+/* ===== v2.4 MOBILE FIX: screenshot on top, glass panel BELOW it (no overlay on phones) ===== */
+/* iOS shows ↗ as an emoji; force a text arrow */
+.p-info em,.btn i{font-family:system-ui,-apple-system,"Segoe UI Symbol",sans-serif;font-variant-emoji:text}
+/* touch screens have no real hover: stop it getting "stuck" after a tap */
+@media(hover:none){
+.project:hover,.project:focus-visible{transform:none;border-color:#ffffff55}
+.project:hover .shot img{transform:none}
+.project:hover .p-info em{transform:none}
+}
+@media(max-width:760px){
+.project{display:flex;flex-direction:column;padding:10px;background:#ffffff1f;border-radius:24px}
+.shot{aspect-ratio:16/10;border-radius:16px}
+.glass{position:static;margin-top:10px;padding:14px 16px;border-radius:18px;background:rgba(14,22,120,.5)}
+.glass .p-info p{max-height:none;opacity:1;margin-top:6px;font-size:14.5px;line-height:1.5}
+.glass .p-info h3{font-size:20px}
+.glass .tags{padding-top:12px}
+}
