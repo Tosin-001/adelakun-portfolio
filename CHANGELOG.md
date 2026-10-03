@@ -20,3 +20,17 @@
 - Replaced the project-card arrow treatment with consistently aligned View labels.
 - Replaced remaining CSS arrows with an SVG external-link icon for cross-device alignment.
 - Restored the original warm off-white page background.
+
+## 2026-09-29
+
+- **Files added:** `index.new.html`, `projects.new.html`, `styles.new.css`, `docs/redesign-notes.md`, `PROJECT_STATUS.md`.
+- **Backup:** originals copied to `backups/2026-09-29-pre-redesign/` before any work.
+- **What changed:** built a redesign preview alongside the live files: dark gradient hero with a browser-frame project preview, violet/cyan accent system, card-based projects, services, and stack sections, gradient about and contact sections.
+- **Why:** requested redesign (more professional, modern, better colour and imagery). All copy is unchanged. Existing files were not modified; the live site is unaffected until the redesign is approved and swapped in.
+
+## 2026-09-29 (revision 2)
+
+- **Files changed:** `styles.new.css`, `index.new.html` (preview files only; live files untouched).
+- **Backup:** `backups/2026-09-29-hero-blue-mesh/` (copies of the preview files before this revision).
+- **What changed:** replaced the purple/cyan accents with a blue palette (`#1f4fd8`, `#4c9bff`, `#0a1a4a`), removed the green availability dot, rebuilt the hero with a live animated blue mesh-gradient background (pure CSS, no libraries), taller hero, and a second overlapping project screenshot frame.
+- **Why:** requested a better accent colour (no purple or green), a stronger hero, and the moving blue gradient from 21st.dev. The original is a React/Tailwind component, and this site is plain HTML/CSS, so the effect was recreated in CSS.
